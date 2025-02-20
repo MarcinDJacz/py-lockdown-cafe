@@ -1,3 +1,4 @@
+
 class VaccineError(Exception):
     pass
 

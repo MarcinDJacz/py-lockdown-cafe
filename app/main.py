@@ -6,7 +6,7 @@ from app.errors import (
 
 
 def go_to_cafe(friends: list, cafe: Cafe) -> None:
-    masks_to_buy = 0
+    masks_to_buy = 0  # comment
     for friend in friends:
         try:
             cafe.visit_cafe(friend)
